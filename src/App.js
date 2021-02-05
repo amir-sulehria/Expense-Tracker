@@ -8,7 +8,7 @@ import { GlobalProvider } from "./context/GlobalState";
 
 import "./App.css";
 
-function App() {
+const App = () => {
   return (
     <GlobalProvider>
       <Header />
@@ -20,6 +20,6 @@ function App() {
       </div>
     </GlobalProvider>
   );
-}
+};
 
 export default App;
